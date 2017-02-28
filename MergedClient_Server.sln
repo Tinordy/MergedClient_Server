@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergedClient_Server", "MergedClient_Server\MergedClient_Server\MergedClient_Server.csproj", "{DD892C79-44BD-4917-8C59-6AE5C22096D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergedClient_ServerContent", "MergedClient_Server\MergedClient_ServerContent\MergedClient_ServerContent.contentproj", "{3EC2544A-A4CC-4D6E-926F-F93ABA7B6C4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelayServer", "..\Prog\RelayServer\RelayServer\RelayServer.csproj", "{936720BA-0015-4574-8891-54617F3E63CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD892C79-44BD-4917-8C59-6AE5C22096D1}.Debug|x86.ActiveCfg = Debug|x86
+		{DD892C79-44BD-4917-8C59-6AE5C22096D1}.Debug|x86.Build.0 = Debug|x86
+		{DD892C79-44BD-4917-8C59-6AE5C22096D1}.Release|x86.ActiveCfg = Release|x86
+		{DD892C79-44BD-4917-8C59-6AE5C22096D1}.Release|x86.Build.0 = Release|x86
+		{3EC2544A-A4CC-4D6E-926F-F93ABA7B6C4B}.Debug|x86.ActiveCfg = Debug|x86
+		{3EC2544A-A4CC-4D6E-926F-F93ABA7B6C4B}.Release|x86.ActiveCfg = Release|x86
+		{936720BA-0015-4574-8891-54617F3E63CE}.Debug|x86.ActiveCfg = Debug|x86
+		{936720BA-0015-4574-8891-54617F3E63CE}.Debug|x86.Build.0 = Debug|x86
+		{936720BA-0015-4574-8891-54617F3E63CE}.Release|x86.ActiveCfg = Release|x86
+		{936720BA-0015-4574-8891-54617F3E63CE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
